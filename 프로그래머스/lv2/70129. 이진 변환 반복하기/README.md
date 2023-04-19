@@ -195,3 +195,8 @@ Empty
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+
+<h4> 
+s의 길이와, 1의 개수, 0의 개수를 새서 1의 개수가 짝수면 0을 넣어주고, 홀수면 1을 넣어준 후에 answer에 count와 zero_sum을 넣어주었다.
+
+</h4>
