@@ -41,5 +41,7 @@ Empty
 </tr>
 </tbody>
       </table>
+      
+      substr로 문자열을 나누면 쉽게 풀 수 있는 문제였다.
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
