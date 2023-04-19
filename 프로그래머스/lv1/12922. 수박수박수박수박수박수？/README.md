@@ -41,5 +41,7 @@ Empty
 </tr>
 </tbody>
       </table>
+      
+      간단한 문자열 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
