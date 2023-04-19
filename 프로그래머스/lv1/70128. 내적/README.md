@@ -70,8 +70,8 @@ Empty
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
 
-<h5>
+<h4>
 내적 공식과 관련된 문제였는데 간단하게 그냥 a[i] * b[i] + a[i+1] * b[i+1] ... a[n-1] * b[n-1] 까지 더해주면 되는 문제였다.
   
-</h5>
+</h4>
   
