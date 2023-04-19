@@ -24,7 +24,7 @@
 
  <p>첫째 줄에 두 배열을 합친 후 정렬한 결과를 출력한다.</p>
  
- <p> </p>
+ <p> </p>  <p> </p> <p> </p> <p> </p> <p> </p>
  
  ![image](https://user-images.githubusercontent.com/75931369/232959746-a08d3456-afa1-4749-872a-8bd85c78993b.png)
 <h4> 
