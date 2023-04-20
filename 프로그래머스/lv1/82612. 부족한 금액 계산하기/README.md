@@ -62,3 +62,7 @@ Empty
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+
+<br><hr>
+<h3>문제 풀이</h3> <br>
+간단한 구현 문제였다. 총 내야하는 금액 answer보다 내가 가지고 있는 money가 적다면 부족한 만큼 리턴하면 되는 문제였음.
