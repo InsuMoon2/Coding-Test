@@ -58,3 +58,11 @@ Empty
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+
+<br><hr>
+<h3>문제 풀이</h3> <br>
+
+![image](https://user-images.githubusercontent.com/75931369/233234119-f4b41abc-34fc-4a7c-a3b7-cf274c30cd0e.png)
+
+<br>
+어제 erase, unique를 사용했었는데 여기서 사용할 수 있을지 몰랐다.. 알고리즘을 잘 사용하면 역시 코드가 훨씬 간결해지는 것 같다.
