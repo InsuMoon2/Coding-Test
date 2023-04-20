@@ -55,3 +55,9 @@ Empty
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+
+<br><hr>
+<h3>문제 풀이</h3> <br>
+s[i]가 숫자면 return을 false하는 조건을 따로 줬었는데, 아래처럼 isdigit 함수를 이용하면 쉽게 판별이 가능한 것을 깨달았다.
+
+![image](https://user-images.githubusercontent.com/75931369/233231988-eb4ed098-30e8-488c-9d82-c25adcf94304.png)
