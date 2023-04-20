@@ -135,3 +135,7 @@ Empty
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+
+<br><hr>
+<h3>문제 풀이</h3>
+약수의 개수가 짝수면 더하면 그 값을 answer에 더해주고, 홀수면 빼주면 되는 간단한 문제였다.
