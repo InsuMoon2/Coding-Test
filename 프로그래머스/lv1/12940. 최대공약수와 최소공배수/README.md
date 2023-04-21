@@ -54,3 +54,10 @@ Empty
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+
+<br><hr>
+<h3>문제 풀이</h3> <br>
+
+![image](https://user-images.githubusercontent.com/75931369/233514354-90f18d53-ecca-4f34-b52b-50498cc666d1.png)
+
+유클리드 호제법 참고 : https://velog.io/@yerin4847/W1-%EC%9C%A0%ED%81%B4%EB%A6%AC%EB%93%9C-%ED%98%B8%EC%A0%9C%EB%B2%95
