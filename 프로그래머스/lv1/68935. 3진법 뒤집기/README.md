@@ -101,3 +101,14 @@ Empty
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+
+<br><hr>
+<h3>문제 풀이</h3> <br>
+
+![image](https://user-images.githubusercontent.com/75931369/233516502-3cb01c4f-986f-4d7f-919b-7a44e795993d.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/75931369/233516522-26fb9a1e-7370-4aff-ab17-d85f34b59a3b.png)
+
+![image](https://user-images.githubusercontent.com/75931369/233516560-f90ea53b-17bb-4e95-aaac-e56df4c42508.png)
