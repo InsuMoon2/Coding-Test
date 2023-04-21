@@ -64,3 +64,8 @@ Empty
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+
+<br><hr>
+<h3>문제 풀이</h3> <br>
+
+재귀로 푸니까 시간초과가 나서 DP로 다시 풀었다.
