@@ -35,17 +35,17 @@ int main()
 
         else if (r_distance1 == distance || r_distance2 == distance)
         {
-            cout << "1" << endl;
+            cout << "1" << "\n";
         }
 
         else if (r_distance1 < distance && distance < r_distance2)
         {
-            cout << "2" << endl;
+            cout << "2" << "\n";
         }
 
         else
         {
-            cout << "0" << endl;
+            cout << "0" << "\n";
         }
     }
 
