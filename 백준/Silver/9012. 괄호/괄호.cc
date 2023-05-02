@@ -12,7 +12,7 @@ int main()
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
-    
+
     int T;
     string input;
     cin >> T;
@@ -52,16 +52,16 @@ int main()
             }
         }
 
-        if (!stk.empty()) 
-        { 
-            cout << "NO" << endl;    
+        if (!stk.empty())
+        {
+            cout << "NO" << endl;
         }
 
-        else 
+        else
         {
             cout << "YES" << endl;
         }
-     
+
     }
 
     return 0;
