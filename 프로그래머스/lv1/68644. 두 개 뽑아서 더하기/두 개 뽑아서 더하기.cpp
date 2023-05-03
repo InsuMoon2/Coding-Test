@@ -1,30 +1,23 @@
 #include <string>
 #include <vector>
-#include <set>
-
-// 두 개 뽑아서 더하기
+#include <algorithm>
 
 using namespace std;
 
 vector<int> solution(vector<int> numbers)
 {
     vector<int> answer;
-	set<int> s;
+    int result = 0;
+    for (int i = 0; i < numbers.size() - 1; i++)
+    {
+        for (int j = i + 1; j < numbers.size(); j++) 
+        {
+            answer.push_back(numbers[i] + numbers[j]);
+        }
+    }
 
-	for (int i = 0; i < numbers.size(); i++)
-	{
-		vector<int> temp;
-
-		for (int j = i + 1; j < numbers.size(); j++)
-		{
-			s.insert(numbers[i] + numbers[j]);
-		}
-	}
-
-	for (auto iter = s.begin(); iter != s.end(); iter++) 
-	{
-		answer.push_back(*iter);
-	}
+    sort(answer.begin(), answer.end());
+    answer.erase(unique(answer.begin(), answer.end()), answer.end());
 
     return answer;
 }
