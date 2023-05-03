@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 3.79 MB, 시간: 0.10 ms
+메모리: 4.22 MB, 시간: 0.07 ms
 
 ### 구분
 
@@ -78,16 +78,3 @@ Empty
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
-
-<br><hr>
-<h3>문제 풀이</h3> <br>
-
-![image](https://user-images.githubusercontent.com/75931369/235814803-4bfa120c-9f30-4858-a356-722dd39be8be.png)
-
-반복문을 돌려서 넣어주었는데, 위와같이 vector의 assign을 활용해서 코드를 더 줄일 수도 있었다. <br>
-
-
-![image](https://user-images.githubusercontent.com/75931369/235814849-38845590-33b9-4a55-9b29-5096b4e1a0b1.png)
-
-
-Set을 사용하지 않고도 vector의 erase와 unique를 사용해서 중복제거를 한 후에 sort로 정렬하는 방법으로도 풀어보았음.
