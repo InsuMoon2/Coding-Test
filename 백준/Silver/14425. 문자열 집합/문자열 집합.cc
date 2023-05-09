@@ -1,37 +1,43 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <iomanip>
-#include <string>
-#include <map>
+#include <cmath>
 #include <set>
+#include <map>
 
 using namespace std;
 
-int main(void)
+int main()
 {
-	int N, M;
-	string n_str, m_str;
-	set<string> n;
-	int result = 0;
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
 
-	cin >> N >> M;
+    int N, M, result = 0;
+    set<string> s;
 
-	for (int i = 0; i < N; i++)
-	{
-		cin >> n_str;
-		n.insert(n_str);
-	}
+    cin >> N >> M;
 
-	for (int i =0; i < M; i++)
-	{
-		cin >> m_str;
-		if (n.find(m_str) != n.end())
-		{
-			result++;
-		}
-	}
+    for (int i = 0; i < N; i++)
+    {
+        string str;
+        cin >> str;
+        s.insert(str);
+    }
 
-	cout << result;
+    for (int i = 0; i < M; i++)
+    {
+        string str;
+        cin >> str;
 
+        if (s.find(str) != s.end())
+        {
+            result++;
+        }
+    }
+
+    cout << result;
+
+    return 0;
 }
+
