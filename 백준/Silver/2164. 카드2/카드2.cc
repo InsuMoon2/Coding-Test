@@ -1,36 +1,36 @@
 #include <iostream>
+#include <string>
 #include <vector>
 #include <algorithm>
-#include <string>
-#include <math.h>
-#include <stack>
+#include <cmath>
 #include <queue>
 
 using namespace std;
 
 int main()
 {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    cout.tie(NULL);
-    
-    queue<int> q;
-    int num;
-    cin >> num;
+	ios_base::sync_with_stdio(false);
+	cin.tie(nullptr);
+	cout.tie(nullptr);
 
-    for (int i = 1; i <= num; i++)
-    {
-        q.push(i);
-    }
+	queue<int> que;
+	int N;
+	cin >> N;
 
-    while (q.size() > 1)
-    {
-        q.pop();
-        q.push(q.front());
-        q.pop();
-    }
+	for (int i = 1; i <= N; i++)
+	{
+		que.push(i);
+	}
 
-    cout << q.front() << endl;
+	while (que.size() > 1)
+	{
+		que.pop();
+		que.push(que.front());
+		que.pop();
+	}
 
-    return 0;
+	cout << que.front() << endl;
+
+
+	return 0;
 }
