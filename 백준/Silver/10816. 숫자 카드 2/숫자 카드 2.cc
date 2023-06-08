@@ -14,41 +14,37 @@ int main(void)
     cin.tie(nullptr);
     cout.tie(nullptr);
 
-    map<int, int> number;
     int N, M;
+    vector<int> vec;
 
     cin >> N;
 
     for (int i = 0; i < N; i++)
     {
-        cin >> M;
+        int input;
+        cin >> input;
 
-        if (number.find(M) == number.end()) 
-        {
-            number[M] = 1;
-        }
-
-        else
-        {
-            number[M]++;
-        }
+        vec.push_back(input);
     }
-    cin >> N;
 
-    for (int i = 0; i < N; i++)
+    sort(vec.begin(), vec.end());
+
+    cin >> M;
+
+    for (int i = 0; i < M; i++)
     {
-        cin >> M;
+        int input;
+        cin >> input;
+        auto upper = upper_bound(vec.begin(), vec.end(), input);
+        auto lower = lower_bound(vec.begin(), vec.end(), input);
 
-        if (number.find(M) == number.end())
-        {
-            cout << 0 << " ";
-        }
+        
 
-        else
-        {
-            cout << number[M] << " ";
-        }
+        cout << upper - lower << " ";
     }
+
+
+    
 
     return 0;
 }
