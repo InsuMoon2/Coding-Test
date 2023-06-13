@@ -2,17 +2,18 @@
 #include <vector>
 #include <algorithm>
 #include <string>
-#include <cmath>
-#include <set>
 #include <map>
+#include <set>
+#include <stack>
 
 using namespace std;
+
 
 int main()
 {
     ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    cout.tie(NULL);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
 
     vector<int> vec;
     int N, K;
@@ -21,9 +22,9 @@ int main()
 
     for (int i = 0; i < N; i++)
     {
-        int num;
-        cin >> num;
-        vec.push_back(num);
+        int input;
+        cin >> input;
+        vec.push_back(input);
     }
 
     sort(vec.begin(), vec.end(), greater<>());
@@ -31,11 +32,10 @@ int main()
     for (int i = 0; i < N; i++)
     {
         count += K / vec[i];
-        K = K % vec[i];
+        K %= vec[i];
     }
 
-    cout << count << endl;
-    
+    cout << count;
 
     return 0;
 }
